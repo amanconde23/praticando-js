@@ -1,0 +1,19 @@
+.header{
+  background-color: #0082C7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title{
+  color: #B3DAEE;
+}
+
+.header-button:first-child{
+  margin-right: 15px;
+}
+
+.header-button{
+  background-color: #006195;
+  color: #fff;
+  padding: 10px;
+}

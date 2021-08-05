@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body, textarea{
+  font-family: 'Verdana', sans-serif;
+}
+
+ul, ol, li{
+  list-style: none;
+}

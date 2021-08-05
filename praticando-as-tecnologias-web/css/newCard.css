@@ -1,0 +1,36 @@
+.newCard{
+  background-color: #C5C5C5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 127px;
+  margin-bottom: 24px;
+}
+
+.newCard-content{
+  font-size: 16px;
+  width: 560px;
+  height: 36px;
+  padding: 10px;
+  border: 1px solid #fff;
+  transition: height 0.2s linear,
+              border-color 0.3s linear;
+  resize: none;
+  overflow:hidden
+}
+
+.newCard-content:focus{
+  height: 100px;
+  border: 1px solid rgb(109, 109, 109);
+  box-shadow: #006195;
+}
+
+.newCard-action{
+  font-size: 16px;
+  width: 84px;
+  height: 34px;
+  background-color: #006195;
+  color: #FFF;
+  cursor: pointer;
+  margin-top: 20px;
+}
